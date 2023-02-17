@@ -1,0 +1,135 @@
+{
+    "description": "A Oneshot Theme Mod",
+    "developer":
+    {
+        "name": "CatRass"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "BGM/OnLittleCatFeet.mp3"
+            ],
+            "browser_sounds":
+            {
+                "CLICK":
+                [
+                    "sound/click.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sound/feature_switch_off.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sound/feature_switch_on.mp3"
+                ],
+                "HOVER":
+                [
+                    "sound/hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sound/hover.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sound/important_click.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "SE/item_get.wav"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sound/limiter_off.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/limiter_on.mp3"
+                ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/switch.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/close_tab.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "SE/pc_messagebox.wav"
+                ],
+                "TAB_SLASH":
+                [
+                    "sound/tab_slash.mp3"
+                ]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/backspace.mp3"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/enter.mp3"
+                ],
+                "TYPING_LETTER":
+                [
+                    "SE/KEYBOARD/step_tile01.wav",
+                    "SE/KEYBOARD/step_tile03.wav",
+                    "SE/KEYBOARD/step_tile04.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/space.mp3"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 275,
+                        "s": 100,
+                        "l": 72
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 275,
+                        "s": 96,
+                        "l": 6
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 275,
+                        "s": 100,
+                        "l": 72
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 275,
+                        "s": 96,
+                        "l": 6
+                    }
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "name": "Oneshot Mod",
+    "version": "0.1"
+}
