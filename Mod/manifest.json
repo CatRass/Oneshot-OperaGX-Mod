@@ -94,6 +94,13 @@
                     "keyboard/space.mp3"
                 ]
             },
+            "shaders":
+            {
+                "World Machine":
+                {
+                    "path": "shader/matrix.txt"
+                }
+            },
             "theme":
             {
                 "dark":
